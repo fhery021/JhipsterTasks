@@ -42,6 +42,7 @@ public class CacheConfiguration {
             createCache(cm, com.fhery021.jhipster.tasks.domain.User.class.getName());
             createCache(cm, com.fhery021.jhipster.tasks.domain.Authority.class.getName());
             createCache(cm, com.fhery021.jhipster.tasks.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.fhery021.jhipster.tasks.domain.Task.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
